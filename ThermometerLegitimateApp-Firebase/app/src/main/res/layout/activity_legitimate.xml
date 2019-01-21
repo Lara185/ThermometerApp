@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LegitimateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/text_view_header_style"
+                    android:text="Temperature" />
+
+                <TextView
+                    android:id="@+id/time_text_view"
+                    style="@style/text_view_style"
+                    android:drawableLeft="@drawable/ic_time"
+                    android:hint="@string/time_hint" />
+
+                <TextView
+                    android:id="@+id/value_text_view"
+                    style="@style/text_view_style"
+                    android:layout_marginBottom="8dp"
+                    android:drawableLeft="@drawable/ic_temperature"
+                    android:hint="@string/temperature_hint" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/sign_out_button"
+                style="@style/button_style"
+                android:layout_marginTop="16dp"
+                android:text="@string/sign_out_text" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

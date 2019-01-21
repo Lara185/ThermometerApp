@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Thermometer Legitimate App Firebase</string>
+
+    <!-- Login -->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_text">Sign in</string>
+    <string name="sign_in_action">Sign in</string>
+    <string name="sign_out_text">Sign out</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Legitimate -->
+    <string name="time_hint">Time</string>
+    <string name="temperature_hint">Value</string>
+
+</resources>
